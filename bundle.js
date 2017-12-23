@@ -73,16 +73,23 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_animejs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_animejs__);
 
 
-__WEBPACK_IMPORTED_MODULE_0_animejs___default()({
-  targets: 'h2',
-  translateX: [
-    { value: 100, duration: 1200 },
-    { value: 0, duration: 800 }
-  ],
-  rotate: '1turn',
-  backgroundColor: '#FFF',
-  duration: 2000,
-  loop: true
+document.addEventListener("DOMContentLoaded",function(){
+
+  const timeline = __WEBPACK_IMPORTED_MODULE_0_animejs___default.a.timeline();
+  timeline
+    .add({
+      targets: 'path',
+      strokeDashoffset: [__WEBPACK_IMPORTED_MODULE_0_animejs___default.a.setDashoffset, 0],
+      easing: 'easeInCubic',
+      duration: 1500,
+      delay: function(el, i) { return i * 250 },
+    })
+    .add({
+      targets: 'path',
+      fill: '#ffc6ee',
+      easing: 'easeOutQuad',
+      duration: 1500
+    });
 });
 
 
