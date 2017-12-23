@@ -1,13 +1,20 @@
 import anime from 'animejs'
 
-anime({
-  targets: 'h2',
-  translateX: [
-    { value: 100, duration: 1200 },
-    { value: 0, duration: 800 }
-  ],
-  rotate: '1turn',
-  backgroundColor: '#FFF',
-  duration: 2000,
-  loop: true
+document.addEventListener("DOMContentLoaded",function(){
+
+  const timeline = anime.timeline();
+  timeline
+    .add({
+      targets: 'path',
+      strokeDashoffset: [anime.setDashoffset, 0],
+      easing: 'easeInCubic',
+      duration: 1500,
+      delay: function(el, i) { return i * 250 },
+    })
+    .add({
+      targets: 'path',
+      stroke: '#ffc6ee',
+      easing: 'easeOutQuad',
+      duration: 1500
+    });
 });
