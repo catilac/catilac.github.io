@@ -1,2 +1,7 @@
 /* body { background-color: rgb(25, 38, 84); } */
 
+
+.name, .contact-info {
+  width: 50%;
+  margin: 0 auto;
+}
