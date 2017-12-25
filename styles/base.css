@@ -1,7 +1,22 @@
-/* body { background-color: rgb(25, 38, 84); } */
 
-
-.name, .contact-info {
+.name, .contact-info, .tagline {
   width: 50%;
   margin: 0 auto;
+}
+
+.tagline { 
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+.contact-info {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 25px;
+}
+
+.contact-info li {
+  display: inline;
+  list-style: none;
+  padding-left: 25px;
 }
