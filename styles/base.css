@@ -11,11 +11,6 @@ body {
 
 .name {
   flex: none;
-  width: 335px;
-  height: 55.3333px;
-}
-
-@media screen and (max-device-width: 500px) {
   width: 100%;
 }
 
