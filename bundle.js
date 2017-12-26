@@ -81,14 +81,20 @@ document.addEventListener("DOMContentLoaded",function(){
       targets: 'path',
       strokeDashoffset: [__WEBPACK_IMPORTED_MODULE_0_animejs___default.a.setDashoffset, 0],
       easing: 'easeInCubic',
-      duration: 1500,
-      delay: function(el, i) { return i * 250 },
+      duration: 1000,
     })
     .add({
       targets: 'path',
-      fill: '#ffc6ee',
+      fill: '#fff',
+      'stroke-width': 3,
       easing: 'easeOutQuad',
-      duration: 1500
+      duration: 1000,
+    })
+    .add({
+      targets: 'nav',
+      opacity: 1,
+      easing: 'easeInQuad',
+      duration: 500,
     });
 });
 

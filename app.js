@@ -8,13 +8,19 @@ document.addEventListener("DOMContentLoaded",function(){
       targets: 'path',
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: 'easeInCubic',
-      duration: 1500,
-      delay: function(el, i) { return i * 250 },
+      duration: 1000,
     })
     .add({
       targets: 'path',
-      stroke: '#ffc6ee',
+      fill: '#fff',
+      'stroke-width': 3,
       easing: 'easeOutQuad',
-      duration: 1500
+      duration: 1000,
+    })
+    .add({
+      targets: 'nav',
+      opacity: 1,
+      easing: 'easeInQuad',
+      duration: 500,
     });
 });

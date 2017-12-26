@@ -1,22 +1,29 @@
-
-.name, .contact-info, .tagline {
-  width: 50%;
-  margin: 0 auto;
+body { 
+  padding-top: 15em; 
+  background-color: #F78C99;
 }
 
-.tagline { 
-  font-family: 'Roboto Slab', serif;
-  text-align: center;
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.contact-info {
+.name {
+  flex: none;
+  width: 335px;
+  height: 55.3333px;
+}
+
+nav {
+  flex: none;
+  opacity: 0;
+  max-width: 100%;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  padding: 25px;
 }
 
-.contact-info li {
-  display: inline;
-  list-style: none;
-  padding-left: 25px;
+nav a { 
+  padding-left: 8px; 
+  color: black;
 }
