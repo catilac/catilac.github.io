@@ -8,8 +8,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "animejs": "^2.2.0",
-    "svgo": "^1.0.3",
-    "webpack": "^3.10.0"
+    "webpack": "3.12.0"
   }
 }
