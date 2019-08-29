@@ -56,12 +56,49 @@
         }
     </script>
     <script id="fragmentShader" type="x-shader/x-fragment">
+        #ifdef GL_ES
+        precision mediump float;
+        #endif
+
         uniform vec2 u_resolution;
+        uniform vec2 u_mouse;
         uniform float u_time;
 
+        float sphereSDF(vec3 p, float r) {
+          return length(p) - r;
+        }
+
+        float sceneSDF(vec3 pos) {
+          return sphereSDF(pos, 0.3);
+        }
+
+        float trace(vec3 rayOrigin, vec3 dir) {
+          float totalDist = 0.;
+
+          for (int i = 0; i < 8; i++) {
+            float dist = sceneSDF(rayOrigin);
+            rayOrigin += dist * dir;
+            totalDist += dist;
+
+            if (dist < 0.001) {
+              return totalDist;
+            }
+          }
+
+          return 0.;
+        }
+        
         void main() {
-            vec2 st = gl_FragCoord.xy/u_resolution.xy;
-            gl_FragColor=vec4(st.x,st.y,0.0,1.0);
+            vec2 st = -1. + 2. * gl_FragCoord.xy/u_resolution;
+
+            vec3 cameraOrigin = vec3(0., 0., -1.);
+            vec3 rayOrigin = vec3(st.x, st.y, 0);
+
+            vec3 lookAt = normalize(rayOrigin - cameraOrigin);
+            
+            vec3 color = vec3(trace(cameraOrigin, lookAt));
+        
+            gl_FragColor = vec4(color,1.0);
         }
     </script>
     <script src='app.js'></script>
