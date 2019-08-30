@@ -67,8 +67,14 @@
         float EPSILON = 0.001;
 
         // geometry
+        float smin( float a, float b, float k ) {
+            float res = exp2( -k*a ) + exp2( -k*b );
+            return -log2( res )/k;
+        }
+
         float unionSDF(float d0, float d1) {
-          return min(d0, d1);
+          //return min(d0, d1);
+          return smin(d0, d1, 32.);
         }
 
         float intersectSDF(float d0, float d1) {
@@ -88,8 +94,8 @@
         }
 
         float sceneSDF(vec3 pos) {
-          float ds0 = sphereSDF(pos, vec3(.5, abs(cos(u_time/2.4)/2.), 0.), 0.3);
-          float ds1 = sphereSDF(pos, vec3(sin(u_time/2.) + 0.25, .34, 0.), 0.2);
+          float ds0 = sphereSDF(pos, vec3(.5, .5, 0.), 0.3);
+          float ds1 = sphereSDF(pos, vec3(abs(sin(u_time/2.)/2.), .34, 0.), 0.2);
           float dp = planeSDF(pos, -1.);
 
           float ds0ds1 = unionSDF(ds0, ds1);
@@ -114,7 +120,7 @@
         }
 
         float lighting(vec3 ro, vec3 rd, vec3 n) {
-          vec3 lightRay = normalize(vec3(2., 2., 0) - ro);
+          vec3 lightRay = normalize(vec3(-1., -2., -1.) - ro);
           float diffuse = max(0.0, dot(n, lightRay));
           vec3 reflectedRay = rd - 2. * dot(n, rd) * n;
           float specular = max(0.0, dot(reflectedRay, lightRay));
