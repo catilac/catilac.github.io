@@ -37,11 +37,6 @@ function init() {
   
   onWindowResize();
   window.addEventListener( 'resize', onWindowResize, false );
-  
-  document.onmousemove = function(e){
-    uniforms.u_mouse.value.x = e.pageX
-      uniforms.u_mouse.value.y = e.pageY
-  }
 }
 
 function onWindowResize( event ) {
