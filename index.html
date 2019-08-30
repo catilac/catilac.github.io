@@ -89,7 +89,7 @@
 
         float sceneSDF(vec3 pos) {
           float ds0 = sphereSDF(pos, vec3(.5, abs(cos(u_time/2.4)/2.), 0.), 0.3);
-          float ds1 = sphereSDF(pos, vec3(sin(u_time/2.)/3. + 0.25, .34, 0.), 0.2);
+          float ds1 = sphereSDF(pos, vec3(sin(u_time/2.) + 0.25, .34, 0.), 0.2);
           float dp = planeSDF(pos, -1.);
 
           float ds0ds1 = unionSDF(ds0, ds1);
@@ -100,23 +100,22 @@
         vec3 estimateNormal(vec3 p) {
           return normalize(vec3(
           // dx
-            sceneSDF(vec3(p.x + EPSILON, p.y, p.z) -
-            sceneSDF(vec3(p.x - EPSILON, p.y, p.z))),
+            sceneSDF(vec3(p.x + EPSILON, p.y, p.z)) -
+            sceneSDF(vec3(p.x - EPSILON, p.y, p.z)),
 
           // dy
-            sceneSDF(vec3(p.x, p.y + EPSILON, p.z) -
-            sceneSDF(vec3(p.x, p.y - EPSILON, p.z))),
+            sceneSDF(vec3(p.x, p.y + EPSILON, p.z)) -
+            sceneSDF(vec3(p.x, p.y - EPSILON, p.z)),
 
           // dz
-            sceneSDF(vec3(p.x, p.y, p.z + EPSILON) -
-            sceneSDF(vec3(p.x, p.y, p.z - EPSILON)))
+            sceneSDF(vec3(p.x, p.y, p.z + EPSILON)) -
+            sceneSDF(vec3(p.x, p.y, p.z - EPSILON))
           ));
         }
 
         float lighting(vec3 ro, vec3 rd, vec3 n) {
           vec3 lightRay = normalize(vec3(2., 2., 0) - ro);
           float diffuse = max(0.0, dot(n, lightRay));
-          // I - 2.0 * dot(N, I) * N.
           vec3 reflectedRay = rd - 2. * dot(n, rd) * n;
           float specular = max(0.0, dot(reflectedRay, lightRay));
           specular = pow(specular, 200.0);
