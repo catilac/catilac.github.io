@@ -16,22 +16,24 @@ canvas {
 
 .box { 
   z-index: 1;
-  background-color: rgb(144, 100, 45);
-  width: 45%;
+  background-color: #fc354c;/* rgb(144, 100, 45);*/
+  /* width: 45%; */
   height: 100vh;
   color: white;
   padding: 2em;
   padding-top: 1em;
+  max-width: 30em;
 }
 
 a {
-  color: blue;
-  text-decoration: none;
+  color: white;
+  /* text-decoration: none; */
 }
 
 a:hover {
   color: white;
   background: blue;
+  /* text-decoration: none; */
 }
 
 footer {
