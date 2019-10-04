@@ -1,6 +1,13 @@
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  margin-left: 0em;
+  margin-top: 0em;
+  margin: 0em;
+}
+
 canvas {
-  z-index: -1;
-  position: absolute;
+  z-index: -3;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -8,7 +15,53 @@ canvas {
 }
 
 .box { 
+  z-index: 1;
   background-color: rgb(144, 100, 45);
   width: 45%;
+  height: 100vh;
   color: white;
+  padding: 2em;
+  padding-top: 1em;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background: blue;
+}
+
+footer {
+  position: fixed;
+  left: 0em;
+  bottom: 0em;
+}
+
+footer a:hover {
+  background: none;
+}
+
+.rc-riong {
+  width: 50px;
+  height: 50px;
+  background: none;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+  content: "+";
+  padding-right: 5px;
 }

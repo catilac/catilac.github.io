@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <title>hi</title>
-
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
 
@@ -47,7 +47,7 @@
       </section>
 
       <footer>
-        <a href='https://webring.recurse.com'><img src='https://webring.recurse.com/icon.png'/></a>
+        <a href='https://webring.recurse.com'><img src='https://webring.recurse.com/icon.png' class="rc-riong"></a>
       </footer>
 
     </div>
@@ -160,6 +160,8 @@
           gl_FragColor = vec4(trace(cameraOrigin, dir), 1.0);
         }
     </script>
+    <script src='p5.min.js'></script>
+    <script src='p5.dom.min.js'></script>
     <script src='app.js'></script>
   </body>
 
