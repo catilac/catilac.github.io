@@ -1,0 +1,91 @@
+# Chirag Davé - 408-310-3154 - c@chirag.io
+
+## About
+Front-end leaning generalist, and iOS developer with 11 years of experience.
+Looking to work on computer graphics related projects.
+
+## Skills
+* Software Engineering: Javascript, Swift, Python, Obj-c, C/C++, GLSL, Metal, Threejs, WebGL, Haskell
+
+## Experience
+* Founder - Super Catilac, March 2018 - Present
+	* Advising on application architecture, business strategy, but mostly just helping people build their iOS and JavaScript heavy applications
+
+* Senior Software Engineer - Grove, Feb 2017 - Jul 2017
+	* Architected and built tool for creating Financial Plans based on customizable schema
+	* Built email system
+	* Built financial plan archival system
+	* Build tool for Plan Schema Management
+	* Worked on Client Facing app
+	* Tools: Python, ES6, Celery, ReactJS, Postgres
+
+
+* Senior Software Engineer - Pandora, Jan 2016 - Feb 2017
+	* Refactored some of the iOS codebase
+	* (Interim) Managed team of 9 iOS/Android engineers
+	* Engineering Lead for portion of new product offering
+	* Backend engineer on greenfield search engine ( Clojure, Elasticsearch, Python, Kafka )
+
+
+* Senior Software Engineer - Rdio (Acquired by Pandora), Nov 2014 - Jan 2016
+	* iOS rebuild in Swift. Helped manage this project as well.
+	* Product Managed a feature
+	* Built internal tool in React
+
+
+* Software Engineer - AnyPerk, Apr 2014 - Nov 2014
+	* Refactoring of Rails codebase
+	* Explored a Reactjs prototype for rebuild
+
+
+* Senior Developer - Quri, Jan 2013 - Jul 2013
+	* Built a choropleth map visualization using d3.js and then rebuilt it in the Google Maps API.
+	* Built internal tools using backbonejs, Rails, postgres, and redis.
+	* Collaborated with other senior developers to make design and architecture decisions
+
+
+* Co-Founder - SquidCube, Mar 2012 - Nov 2012
+	* Initial product wireframes
+	* Managed UX/Visual Design contractor
+	* Managed contract developer
+	* Acquired two startup advisors
+
+	* Architected the application and dev work flow
+	* Architected data model for Mongodb
+	* Built API using Nodejs
+	* Built front-end with backbonejs
+	* Instrumented client code with mixpanel
+	* Performed code reviews
+
+
+* Co-Founder - NYC Taxi Awards, Sep 2011 - Mar 2012
+	* Built API
+	* Built iOS App
+	* Product Management
+	* Tools: Rails, Postgres, Redis
+
+
+* Software Engineer - Get Satisfaction, Jun 2010 - Mar 2011
+	* Worked with head of UX to build functional prototypes. Validated UX designs with customers. UX research. Lead Card sorting exercises.
+	* Built a functional prototype for entirely redesigned admin section for site
+
+
+* Software Engineer - UserVoice, May 2009 - Jun 2010
+	* Built ActionMailer plugin to autogenerate text part for emails
+	* Setup DKIM, TLS, Reverse DNS, and monitored bounce rates
+	* Built CSS inliner for html emails
+	* Built URL Shortener
+	* Architected and built email processing pipeline
+
+
+* Software Engineer - GoHanlon, Aug 2008 - May 2009
+	* Built automated server set up scripts for spinning up new servers on demand
+	*  Built and maintained various Rails applications for clients
+
+
+## Publications
+Video Relighting Using Infrared Illumination
+2008 Computer Graphics Forum Vol. 27 Issue 2 
+
+## Education
+University of California, Santa Cruz (2008) - BS, Computer Science, Minor in Math
