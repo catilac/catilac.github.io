@@ -18,11 +18,11 @@ canvas {
   z-index: 1;
   background-color: #fc354c;/* rgb(144, 100, 45);*/
   /* width: 45%; */
-  height: 100vh;
+  /* height: 100vh; */
   color: white;
   padding: 2em;
   padding-top: 1em;
-  max-width: 30em;
+  max-width: 40em;
 }
 
 a {
