@@ -1,0 +1,57 @@
+Chirag Davé
+Graphics Programmer
+
+# Contact
+Email: c@chirag.io
+Website: chirag.io
+
+# About
+Software Engineer with 11 years of experience. Focusing on graphics programming.
+
+# Skills
+Swift, Obj-C, C/C++, JavaScript, Python, Metal, GLSL, Threejs, WebGL
+
+# Experience
+March'18-Present Founder at Super Catilac
+Advise clients on application architecture, and product strategy.
+Primarily helping people build iOS apps and making sure people JavaScript
+correctly.
+
+## Feb'17-Jul'17 Senior Software Engineer at Grove (Acquired)
+Architected and built tool for creating Financial Plans based on
+customizable schema. Built email system. Built financial plan archival
+system. Built tool for Plan Schema Management. Worked on Client Facing
+app. All done with Python, ES6, Celery, ReactJS, and Postgres.
+
+## Jan'16-Feb'17 Senior Software Engineer at Pandora
+Refactored iOS code. (Interim) Managed team of 9 iOS/Android engineers.
+Engineering Lead for portion of new product offering. Backend Engineer on
+greenfield search engine (Clojure, Elasticsearch, Python, Kafka)
+
+## Nov'14-Jan'16 Senior Software Engineer at Rdio (Acquired by Pandora)
+iOS rebuild in Swift. Helped manage for a bit as well. Product Managed a
+feature. Built marketing tool for building Radio playlists in React.
+
+## Apr'14-Nov'14 Software Engineer at AnyPerk (Now Fond)
+Refactored Rails codebase. Explored Reactjs prototype for rebuild.
+
+## Jan'13-Jul'13 Senior Software Engineer at Quri
+Built a choropleth map visualization using D3, then rebuilt using Google
+Maps API. Built internal tooling with Backbonejs, Rails, Postgres, and
+Redis. Collaborated with other senior developers to make design and
+architecture decisions.
+
+## Mar'12-Nov'12 Co-Founder at SquidCube
+Initial product wireframes. Managed design and development contractors.
+Acquired 2 advisors. Architected entire system. Performed code reviews.
+
+## Sep'11-Mar'12 Co-Founder at NYC Taxi Awards
+Built API, iOS App. Product Management.
+
+# Publications
+Video Relighting Using Infrared Illumination
+2008 Computer Graphics Forum Vol. 27 Issue 2
+
+# Education
+2008 University of California, Santa Cruz
+Bachelor of Computer Science with a minor in Mathematics
