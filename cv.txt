@@ -6,16 +6,17 @@ Email: c@chirag.io
 Website: chirag.io
 
 # About
-Software Engineer with 11 years of experience. Focusing on graphics programming.
+Software Engineer with 15 years of experience. Focusing on graphics programming and hard engineering problems.
 
 # Skills
-Swift, Obj-C, C/C++, JavaScript, Python, Metal, GLSL, Threejs, WebGL
+Swift, Obj-C, C/C++, Metal, GLSL, JavaScript
 
 # Experience
 March'18-Present Founder at Super Catilac
-Advise clients on application architecture, and product strategy.
-Primarily helping people build iOS apps and making sure people JavaScript
-correctly.
+Software architecture, strategy, iOS GPU pipeline auditing and development, 
+and high performance swift. Advise clients on application architecture, and 
+product strategy.
+
 
 ## Feb'17-Jul'17 Senior Software Engineer at Grove (Acquired)
 Architected and built tool for creating Financial Plans based on
