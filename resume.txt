@@ -1,0 +1,103 @@
+Chirag Davé
+Software Engineer
+
+# Contact
+Email: c@chirag.io
+Website: https://chirag.io
+Github: https://github.com/catilac
+LinkedIn: https://linkedin.com/in/chiraggdave
+
+# Skills
+Go, Swift, Obj-C, C/C++, Metal, GLSL, JavaScript, Python, Linux
+
+# About
+I am a seasoned startup software engineer and I love solving hard problems. I have a strong understanding of the developing lifecycle. In addition to full-stack web development, I've worked on systems, and Apple platforms.  The debugger is an old friend of mine, and I enjoy a deep dive into the low-level realms. I have 15 years of experience at startup companies of different sizes, and some of my own. I've be hired as the 1st engineer, the 8th, and 80th.
+
+
+# Experience
+March'18-Present Founder at Super Catilac
+Super Catilac is my solo freelance software consultancy. I assist clients with software architecture, product strategy, and building a product engineering org, real-time graphics, high performance swift
+
+## Feb'17-Jul'17 Senior Software Engineer at Grove (Acquired)
+Grove was an early stage financial planning startup.
+As an organization we had a feduciary duty to our clients
+* Architected and built tool for creating financial plans
+* Designed software definable schema
+* Created email system and financial plan archival system
+* Built tool for Plan Schema Management
+* ReactJS client facing application
+Tools used: Python, ES6, Celery, ReactJS, Postgres
+
+## Jan'16-Feb'17 Senior Software Engineer at Pandora
+Pandora acquired Rdio (a music streaming startup) and much of the work was
+bringing iOS code and knowhow into Pandora for their own on demand streaming service.
+* Refactored iOS code
+* Managed team of 9 iOS and Android engineers
+* Engineering Lead for portion of new on demand service
+* Backend Engineer on greenfield search engine to be used by 74 million users
+Tools used: Clojure, Elasticsearch, Python, Kafka, Swift, iOS, Obj-C
+
+## Nov'14-Jan'16 Senior Software Engineer at Rdio (Acquired by Pandora)
+Rdio was the first on demand streaming service before Spotify was available in the US.
+I joined as a javascript developer, and later moved to the mobile iOS team.
+* Worked on new iOS rebuild in Swift
+* Played role of product manager for a small feature
+* Built marketing tool for building Radio playlists in React
+Tools used: ReactJS, ES6, Swift, Obj-C
+
+## Apr'14-Nov'14 Software Engineer at AnyPerk (Now Fond)
+AnyPerk was a B2B company that packaged and sold employee perks to companies.
+Most of the work was refactoring a codebase full of technical debt, and moving away
+from older unhelpful technologies.
+* Refactored Rails codebase
+* Explored Reactjs prototype for rebuild
+Tools Used: ReacJS, Ruby on Rails, MySQL
+
+## Jan'13-Jul'13 Senior Software Engineer at Quri
+Quri focused on CPG. They wanted to track the performance of product positioning in grocery stores.
+I came in as a senior full stack web developer.
+* Explored map visualizations using D3 and Google Maps without designer
+* Built internal tooling to increase company productivity
+* Collaborated with other developers to make design and architecture decisions
+Tools used: Javascript, Ruby on Rails, Postgres, Redis, Backbonejs, D3
+
+## Mar'12-Nov'12 Co-Founder at SquidCube
+This was my startup for helping companies get customer feedback.
+We were one of the first to make mobile web work, including bringing
+usable drag and drop user interaction.
+* Designed MVP product wireframes
+* Managed design and development contractors
+* Acquired 2 advisors
+* Architected entire system
+* Lead code reviews
+Tools Used: Javascript, Backbonejs, CSS, Heroku, Redis, MongoDB, Nodejs
+
+## Sep'11-Mar'12 Co-Founder at NYC Taxi Awards
+Startup
+Built API, iOS App. Product Management.
+
+## Jun'10-Mar'11 Software Engineer at Get Satisfaction
+I was a web generalist at this company. I did a bunch of feature development,
+and also helped with UX research by helping the director of UX with build functional prototypes.
+* Built functional prototype for entirely redesigned admin section
+Tools used: Ruby on Rails
+
+## May'09-Jun'10 Software Engineer at UserVoice
+This was my first real startup job in San Francisco. It was a user feedback company, and we were
+a really tight, scrappy, efficient team.
+* Created a Rails plugin that hacked ActionMailer to generate a text part from the html part of
+  the email on the fly. This saved us countless hours of developer time and headache.
+* Improved email delivery rate by setting up DKIM, TLS, Reverse DNS, and monitored the bounce rates
+* Made CSS inliner for HTML emails as they are being sent out. Another developer productivity boost.
+* Internal URL link shortener for our links. We saved tens of thousands of dollars for an easy to
+  customize tool. We were scrappy
+* Created pipeline for easily programming email processing steps (inline CSS, generating text parts, URL shortening, etc...)
+Tools Used: Ruby on Rails, Javascript, JQuery, CSS
+
+# Publications
+Video Relighting Using Infrared Illumination
+2008 Computer Graphics Forum Vol. 27 Issue 2
+
+# Education
+2008 University of California, Santa Cruz
+Bachelor of Computer Science with a minor in Mathematics
