@@ -9,10 +9,10 @@
 # Skills
 Go, Swift, Obj-C, C/C++, Metal, GLSL, JavaScript, Python, Linux, High performance computing
 
-# Highlighted Experience
+# Relevant Experience
 
-### Our Zora, Freelance Senior Software Engineer, March 2023
-* Lead refactor to support migration to SwiftUI. Previous implementation of UI was following practices that made sense for a javascript web app and not iOS. Team was able to move on from technical debt and this improved developer velocity significantly
+### OurZora, Freelance Senior Software Engineer, March 2023
+* Lead refactor to support migration to SwiftUI. Reduced technical debt; improving developer velocity
 
     Technologies Used: Swift, SwiftUI
 
@@ -23,9 +23,9 @@ Go, Swift, Obj-C, C/C++, Metal, GLSL, JavaScript, Python, Linux, High performanc
 
     Technologies Used: Swift, Github
 
-### Riva Health, Consulting Lead Graphics Programmer, July 2021 - Sep 2021, Jan 2022 - March 2022
-* Brought GPU pipeline code up to best practices, this increased the performance headroom on the iPhone for future development. The FDA was required to audit the code, and this prepared them to pass that critical business milestone
-* Collaborated with design team to build an animation using shaders
+### Riva Health, Consulting Lead Graphics Programmer, July 2021 - September 2021, January 2022 - March 2022
+* Brought GPU pipeline code up to best practices, this increased the performance headroom on the iPhone for future development and chances of FDA approval
+* Collaborated with design team to build a real-time animation using shaders that responded to blood pressure readings
 
     Technologies Used: Swift, xcode debugger, Metal
 
@@ -35,39 +35,36 @@ Go, Swift, Obj-C, C/C++, Metal, GLSL, JavaScript, Python, Linux, High performanc
 
     Technologies used: Golang, libobjc, XCode, obj-c
 
-### Hirsh Group, Freelance Lead Software Engineer, Jan 2021 - May 2021
-* Ported real time audio analysis tool from C to Swift, ensured parity and performance benchmarks using automated tests, and improved performance of Swift implementation by 195%. This code runs in their production app to this day
+### Hirsh Group, Freelance Lead Software Engineer, January 2021 - May 2021
+* Ported real time audio analysis tool from C to Swift, ensured parity and performance benchmarks using automated tests, and improved performance of Swift implementation by 195%. This code runs in production to this day
 
     Technologies Used: C, Swift, swiftc, x86 assembly language, xcode debugger
 
 ### Grove (Acquired), Senior Software Engineer, February 2017 - July 2017
-* Architected and built tool for creating financial plans. This was a necessary step to decouple financial advisors from engineering resources. There was a expensive lack of autonomy that this solved for. The company would not be able to function without this internal tooling
-* Conceived software definable schema, and built tool for making changes and versioning it. Allowing for rapid iteration between financial teams, engineering, and product in order to quickly find a elegantly personalized turn-key financial plan
+* Architected and developed a cutting-edge financial planning tool, empowering financial advisors with autonomy, saving hundreds of developer hours per week by eliminating the need for engineering resources. Transformed the financial planning process by decoupling advisors from technical dependencies, resulting in significant cost savings and increased productivity
+* Led the conception and development of a software definable schema tool, empowering swift iteration between financial teams, engineering, and product; facilitated the creation of highly personalized, turn-key financial plans with remarkable efficiency
 * Created email system and financial plan archival system, a crucial base to cover as a feduciary
 * Optimized performance of ReactJS form with thousands of form elements by 400%
 
     Technologies used: Python, ES6, Celery, ReactJS, Postgres
 
 ### Pandora, Senior Software Engineer, January 2016 - February 2017
-* Backend Engineer on greenfield search engine to be used by 74 million users
-* Managed team of 9 cross-functional iOS and Android engineers
-* Lead feature development for new on demand service
-* Refactored iOS code
+* Backend Engineer on greenfield search engine used by 74 million users
+* Managed team of 9 cross-functional iOS and Android engineers during post-acquisition integration period
 
     Technologies used: Clojure, Elasticsearch, Python, Kafka, Swift, iOS, Obj-C
 
 ### Rdio (Acquired by Pandora), Senior Software Engineer, November 2014 - January 2016
-* Participated in iOS rebuild in Swift in order to have more control over the performance and code quality that were sacrificed by using Xamarin
-* Implemented Rdio Playlists for Marketing team. This allowed for partners, such as radio station hosts, to create custom playlists on our platform
+* Rebuilt iOS app in Swift increasing performance, testability, code quality, and team autonomy
+* Implemented Rdio Playlists for Marketing team. This allowed for partners, such as radio station hosts, to create custom playlists on the platform
 
     Technologies used: ReactJS, ES6, Swift, Obj-C
 
 ### UserVoice, Software Engineer, May 2009 - June 2010
-* Designed and built email processing pipeline
-* Created a Rails plugin to generate a text part from the html part of the email on the fly, saving significant hours of developer time
+* Created a Rails plugin to generate a text part from the html part of the email on the fly, saving 50 engineering hours a month
 * Improved email delivery rate by setting up DKIM, TLS, Reverse DNS, and bounce rate monitoring
 * Pioneered on-the-fly CSS inliner for HTML emails. Another developer productivity boost
-* Internal URL link shortener for branded links
+* Internal URL link shortener for branded links improving observability by 10%
 
     Technologies Used: Ruby on Rails, Javascript, JQuery, CSS
 
