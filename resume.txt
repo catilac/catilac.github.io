@@ -9,124 +9,58 @@
 # Skills
 Go, Swift, Obj-C, C/C++, Metal, GLSL, JavaScript, Python, Linux, High performance computing
 
-# Experience
+# Highlighted Experience
 
 ### Our Zora, Freelance Senior Software Engineer, March 2023
-* Lead refactor to support migration to SwiftUI
+* Lead refactor to support migration to SwiftUI. Previous implementation of UI was following practices that made sense for a javascript web app and not iOS. Team was able to move on from technical debt and this improved developer velocity significantly
 
     Technologies Used: Swift, SwiftUI
 
 ### SunHaus, Consulting CTO/Senior Software Engineer, January 2021 - August 2022
-* Established engineering org
-* Lead product management hiring process
-* Audited codebase
-* Set up development tooling to increase productivity and curtail regressions
-* Took initiative on building test infrastructure and documentation
+* Established engineering org by setting up development tooling, organization repository. This allowed for a measurable development process
+* Transformed company into a software product org through education in product management, writing a job description for PM, and leading interviews to fill that role
+* Audited codebase and took intiative on building test infrastructure and documentation
 
-    Technologies Used: Swift
+    Technologies Used: Swift, Github
 
 ### Riva Health, Consulting Lead Graphics Programmer, July 2021 - Sep 2021, Jan 2022 - March 2022
-* Implemented best practices for mobile GPU usage on iPhone
-* Code review leading up to an FDA code audit
-* Collaborated with design team to build an animation
-* Increased performance headroom on device
+* Brought GPU pipeline code up to best practices, this increased the performance headroom on the iPhone for future development. The FDA was required to audit the code, and this prepared them to pass that critical business milestone
+* Collaborated with design team to build an animation using shaders
 
     Technologies Used: Swift, xcode debugger, Metal
 
 ### Progrium, Freelance Senior Software Engineer, August 2020, January 2021 - February 2021, September 2023
 * Authored opensource project for monitoring .plist configuration changes on MacOS which received 127 stars on Github
-* Created MacOS desktop apps in Go using MacDriver library
-* Feature development and bug fixes
+* Created MacOS desktop apps in Go using MacDriver library. These apps demonstrated the power of the library to interested developers
 
     Technologies used: Golang, libobjc, XCode, obj-c
 
 ### Hirsh Group, Freelance Lead Software Engineer, Jan 2021 - May 2021
-* Ported real time audio analysis tool from C to Swift
-* Ensured parity between ports using tests
-* Improved performance of Swift implementation by 195%
+* Ported real time audio analysis tool from C to Swift, ensured parity and performance benchmarks using automated tests, and improved performance of Swift implementation by 195%. This code runs in their production app to this day
 
     Technologies Used: C, Swift, swiftc, x86 assembly language, xcode debugger
 
-### WeTransfer, Freelance Senior iOS Developer, Jan 2020 - August 2020
-* Lead development of Locked journal security feature for Paper
-
-Technologies used: Swift
-
-### Hummingbird, Freelance Senior Software Engineer, March 2019 - May 2019
-* Feature development for regulated financial auditing software
-
-    Technologies used: Ruby on Rails, Ruby, ReactJS, ES6
-
-### Rekall, Freelance Lead iOS Developer, July 2018
-* Built prototype of RFID blockchain app to be presented to Apple in one month
-
-    Technologies used: Swift, Core NFC library
-
-### Bamboo Creative, Freelance Senior Software Engineer, March 2018 - April 2019
-* Full-stack feature development in Javascript
-
-    Technologies used: Node.js, backbonejs, mongodb
-
-### Grove (Acquired), Senior Software Engineer, February 2017, July 2017
-* Architected and built tool for creating financial plans
-* Conceived software definable schema
-* Created email system and financial plan archival system
-* Built tool for Plan Schema Management
-* ReactJS client facing application
+### Grove (Acquired), Senior Software Engineer, February 2017 - July 2017
+* Architected and built tool for creating financial plans. This was a necessary step to decouple financial advisors from engineering resources. There was a expensive lack of autonomy that this solved for. The company would not be able to function without this internal tooling
+* Conceived software definable schema, and built tool for making changes and versioning it. Allowing for rapid iteration between financial teams, engineering, and product in order to quickly find a elegantly personalized turn-key financial plan
+* Created email system and financial plan archival system, a crucial base to cover as a feduciary
+* Optimized performance of ReactJS form with thousands of form elements by 400%
 
     Technologies used: Python, ES6, Celery, ReactJS, Postgres
 
 ### Pandora, Senior Software Engineer, January 2016 - February 2017
 * Backend Engineer on greenfield search engine to be used by 74 million users
-* Managed team of 9 iOS and Android engineers
+* Managed team of 9 cross-functional iOS and Android engineers
 * Lead feature development for new on demand service
 * Refactored iOS code
 
     Technologies used: Clojure, Elasticsearch, Python, Kafka, Swift, iOS, Obj-C
 
 ### Rdio (Acquired by Pandora), Senior Software Engineer, November 2014 - January 2016
-* Participated in iOS rebuild in Swift
-* Played role of product manager for a small feature
+* Participated in iOS rebuild in Swift in order to have more control over the performance and code quality that were sacrificed by using Xamarin
 * Implemented Rdio Playlists for Marketing team. This allowed for partners, such as radio station hosts, to create custom playlists on our platform
 
     Technologies used: ReactJS, ES6, Swift, Obj-C
-
-### Fond, Software Engineer, April 2014 - November 2014
-* Refactored Rails codebase
-* Explored Reactjs prototype for rebuild
-
-    Technologies Used: ReacJS, Ruby on Rails, MySQL
-
-### Quri, Senior Software Engineer, January 2013 - July 2013
-* Explored map visualizations using D3 and Google Maps without designer
-* Built internal tooling to increase company productivity
-* Collaborated with other developers to make design and architecture decisions
-
-    Technologies used: Javascript, Ruby on Rails, Postgres, Redis, Backbonejs, D3
-
-### SquidCube, Founding Software Engineer, March 2013 - November 2012
-* Designed MVP product wireframes
-* Managed design and development contractors
-* Brought on two advisors
-* Architected app
-* Lead code reviews
-
-    Technologies Used: Javascript, Backbonejs, CSS, Heroku, Redis, MongoDB, Nodejs
-
-### NYC Taxi Awards, Founding Software Engineer, September 2011 - March 2012
-* Designed API
-* Database schema design
-* Created ingestion system for Taxi Medallion and Driver licenses
-* Built iOS app
-* Product management for iOS app
-
-    Technologies used: Ruby on Rails, Obj-c, iOS
-
-### Get Satisfaction, Software Engineer, Jun 2010 - March 2011
-* Feature development, bug fixes
-* Built functional prototype for entirely redesigned admin section
-
-    Technologies used: Ruby on Rails
 
 ### UserVoice, Software Engineer, May 2009 - June 2010
 * Designed and built email processing pipeline
