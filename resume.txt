@@ -1,141 +1,146 @@
-Chirag Davé
-Software Engineer
+# Chirag Davé, Senior Software Engineer
 
-# Contact
-Email: c@chirag.io
-Website: https://chirag.io
-Github: https://github.com/catilac
-LinkedIn: https://linkedin.com/in/chiraggdave
+# Contact:
+    Email: c@chirag.io
+    Website: https://chirag.io
+    Github: https://github.com/catilac
+    LinkedIn: https://linkedin.com/in/chiraggdave
 
 # Skills
-Go, Swift, Obj-C, C/C++, Metal, GLSL, JavaScript, Python, Linux, High Performance Computing, Low Latency
-
-# About
-I am a seasoned startup software engineer and I love solving hard problems. I have a strong understanding of the developing lifecycle. In addition to full-stack web development, I've worked on systems, and Apple platforms.  The debugger is an old friend of mine, and I enjoy a deep dive into the low-level realms. I have 15 years of experience at startup companies of different sizes, and some of my own. I've be hired as the 1st engineer, the 8th, and 80th.
+Go, Swift, Obj-C, C/C++, Metal, GLSL, JavaScript, Python, Linux, High performance computing
 
 # Experience
 
-## Our Zora, Senior Software Engineer, March 2023
-Refactoring work migrating to SwiftUI.
-Technologies Used: Swift, SwiftUI
+### Our Zora, Freelance Senior Software Engineer, March 2023
+* Lead refactor to support migration to SwiftUI
 
-## SunHaus, CTO/Senior Software Engineer, January 2021 - August 2022
-Feature development for novel film editing software, code auditing, setting up tools for development by multiple engineers, writing job description for and hiring a product manager. Building engineering org. SunHaus is a film company, and not a software development firm. But they were getting into the software industry unintentionally when they decided to build a novel film editor. I led them in building a sustainable software organization that was more than hiring a consultant every now and then to build new features. The code needed to be refactored, documented, tested, and the product needed to be managed by someone not buried in code.
-Technologies Used: Swift,
+    Technologies Used: Swift, SwiftUI
 
-## Riva Health, Lead Graphics Programmer, July 2021 - Sep 2021, Jan 2022 - March 2022
-GPU pipeline optimization, code review before seeking FDA approval of code, and implemented animation idea using metal shaders. Riva was performing blood pressure monitoring using the iPhone camera on the GPU using compute shaders. While they were running that calculation, they also wanted an animation for the user to look at. I built one using graphics shaders on the GPU. I then made sure both operations were able to run performantly, and increased performance head room for future development. I reviewed how they were using the GPU, improved the usage to best practices, and removed all warnings and flags around improper usage.
-Technologies Used: Swift, xcode debugger, Metal
+### SunHaus, Consulting CTO/Senior Software Engineer, January 2021 - August 2022
+* Established engineering org
+* Lead product management hiring process
+* Audited codebase
+* Set up development tooling to increase productivity and curtail regressions
+* Took initiative on building test infrastructure and documentation
 
-## Progrium, Senior Software Engineer, August 2020, January 2021 - February 2021, September 2023
-    * Go development
-    * Wrote system monitoring library called PlistWatch that allowed people to monitor MacOS plist configuration changes across the system
-    * Built MacOS desktop apps in Go with the MacDriver library
-Technologies used: Golang, libobjc, XCode, obj-c
+    Technologies Used: Swift
 
-## Hirsh Group, Lead Software Engineer, Jan 2021 - May 2021
-I was contracted to port a real time audio tool Soundpipe from C to Swift.
-The team relied on this library as a critical part of their infrastructure, and wanted to ensure it could be easily worked on in the future by Swift devs.
-This code still runs in their app today. Took the Swift implementation from 195% slower to 2.5% faster.
-Technologies Used: C, Swift, swiftc, x86 assembly language, xcode debugger
+### Riva Health, Consulting Lead Graphics Programmer, July 2021 - Sep 2021, Jan 2022 - March 2022
+* Implemented best practices for mobile GPU usage on iPhone
+* Code review leading up to an FDA code audit
+* Collaborated with design team to build an animation
+* Increased performance headroom on device
 
-## WeTransfer, Senior iOS Developer, Jan 2020 - August 2020
-Built Locked journal security feature for Paper
+    Technologies Used: Swift, xcode debugger, Metal
+
+### Progrium, Freelance Senior Software Engineer, August 2020, January 2021 - February 2021, September 2023
+* Authored opensource project for monitoring .plist configuration changes on MacOS which received 127 stars on Github
+* Created MacOS desktop apps in Go using MacDriver library
+* Feature development and bug fixes
+
+    Technologies used: Golang, libobjc, XCode, obj-c
+
+### Hirsh Group, Freelance Lead Software Engineer, Jan 2021 - May 2021
+* Ported real time audio analysis tool from C to Swift
+* Ensured parity between ports using tests
+* Improved performance of Swift implementation by 195%
+
+    Technologies Used: C, Swift, swiftc, x86 assembly language, xcode debugger
+
+### WeTransfer, Freelance Senior iOS Developer, Jan 2020 - August 2020
+* Lead development of Locked journal security feature for Paper
+
 Technologies used: Swift
 
-## Hummingbird, Senior Software Engineer, March 2019 - May 2019
-Feature development for regulated financial auditing software.
-Technologies used: Ruby on Rails, Ruby, ReactJS, ES6
+### Hummingbird, Freelance Senior Software Engineer, March 2019 - May 2019
+* Feature development for regulated financial auditing software
 
-## Rekall, Lead iOS Developer, July 2018
-Built a polished RFID reading prototype to be shown to Apple. The idea was that the app would scan a luxury bag which would have some sort of RFID tag tied to the blockchain that could be used to check the history of the bag, and if it was counterfeit.
-Technologies used: Swift, Core NFC library
+    Technologies used: Ruby on Rails, Ruby, ReactJS, ES6
 
-## Bamboo Creative, Senior Software Engineer, March 2018 - April 2019
-Full-stack feature development in Javascript
-Technologies used: Node.js, backbonejs, mongodb
+### Rekall, Freelance Lead iOS Developer, July 2018
+* Built prototype of RFID blockchain app to be presented to Apple in one month
 
-## Grove (Acquired), Senior Software Engineer, February 2017, July 2017
-Grove was an early stage financial planning startup.
-As an organization we had a feduciary duty to our clients
+    Technologies used: Swift, Core NFC library
+
+### Bamboo Creative, Freelance Senior Software Engineer, March 2018 - April 2019
+* Full-stack feature development in Javascript
+
+    Technologies used: Node.js, backbonejs, mongodb
+
+### Grove (Acquired), Senior Software Engineer, February 2017, July 2017
 * Architected and built tool for creating financial plans
-* Designed software definable schema
+* Conceived software definable schema
 * Created email system and financial plan archival system
 * Built tool for Plan Schema Management
 * ReactJS client facing application
-Technologies used: Python, ES6, Celery, ReactJS, Postgres
 
-## Pandora, Senior Software Engineer, January 2016 - February 2017
-Pandora acquired Rdio (a music streaming startup) and much of the work was
-bringing iOS code and knowhow into Pandora for their own on demand streaming service.
-* Refactored iOS code
-* Managed team of 9 iOS and Android engineers
-* Engineering Lead for portion of new on demand service
+    Technologies used: Python, ES6, Celery, ReactJS, Postgres
+
+### Pandora, Senior Software Engineer, January 2016 - February 2017
 * Backend Engineer on greenfield search engine to be used by 74 million users
-Technologies used: Clojure, Elasticsearch, Python, Kafka, Swift, iOS, Obj-C
+* Managed team of 9 iOS and Android engineers
+* Lead feature development for new on demand service
+* Refactored iOS code
 
-## Rdio (Acquired by Pandora), Senior Software Engineer, November 2014 - January 2016
-Rdio was the first on demand streaming service before Spotify was available in the US.
-I joined as a javascript developer, and later moved to the mobile iOS team.
-* Worked on new iOS rebuild in Swift
+    Technologies used: Clojure, Elasticsearch, Python, Kafka, Swift, iOS, Obj-C
+
+### Rdio (Acquired by Pandora), Senior Software Engineer, November 2014 - January 2016
+* Participated in iOS rebuild in Swift
 * Played role of product manager for a small feature
-* Built marketing tool for building Radio playlists in React
-Technologies used: ReactJS, ES6, Swift, Obj-C
+* Implemented Rdio Playlists for Marketing team. This allowed for partners, such as radio station hosts, to create custom playlists on our platform
 
-## Fond, Software Engineer, April 2014 - November 2014
-Fond was a B2B company that packaged and sold employee perks to companies.
-Most of the work was refactoring a codebase full of technical debt, and moving away
-from older unhelpful technologies.
+    Technologies used: ReactJS, ES6, Swift, Obj-C
+
+### Fond, Software Engineer, April 2014 - November 2014
 * Refactored Rails codebase
 * Explored Reactjs prototype for rebuild
-Technologies Used: ReacJS, Ruby on Rails, MySQL
 
-## Quri, Senior Software Engineer, January 2013 - July 2013
-Quri focused on CPG. They wanted to track the performance of product positioning in grocery stores.
-I came in as a senior full stack web developer.
+    Technologies Used: ReacJS, Ruby on Rails, MySQL
+
+### Quri, Senior Software Engineer, January 2013 - July 2013
 * Explored map visualizations using D3 and Google Maps without designer
 * Built internal tooling to increase company productivity
 * Collaborated with other developers to make design and architecture decisions
-Technologies used: Javascript, Ruby on Rails, Postgres, Redis, Backbonejs, D3
 
-## SquidCube, Founding Software Engineer, March 2013 - November 2012
-This was my startup for helping companies get customer feedback.
-We were one of the first to make mobile web work, including bringing
-usable drag and drop user interaction.
+    Technologies used: Javascript, Ruby on Rails, Postgres, Redis, Backbonejs, D3
+
+### SquidCube, Founding Software Engineer, March 2013 - November 2012
 * Designed MVP product wireframes
 * Managed design and development contractors
-* Acquired 2 advisors
-* Architected entire system
+* Brought on two advisors
+* Architected app
 * Lead code reviews
-Technologies Used: Javascript, Backbonejs, CSS, Heroku, Redis, MongoDB, Nodejs
 
-## NYC Taxi Awards, Founding Software Engineer, September 2011 - March 2012
-We were a taxi rating startup. Much of the work was scraping NYC medallion data and taxi driver licenses.
-Built API, iOS App. Product Management.
-Technologies used: Ruby on Rails, Obj-c, iOS
+    Technologies Used: Javascript, Backbonejs, CSS, Heroku, Redis, MongoDB, Nodejs
 
-## Get Satisfaction, Software Engineer, Jun 2010 - March 2011
-I was a web generalist at this company. I did a bunch of feature development,
-and also helped with UX research by helping the director of UX with build functional prototypes.
+### NYC Taxi Awards, Founding Software Engineer, September 2011 - March 2012
+* Designed API
+* Database schema design
+* Created ingestion system for Taxi Medallion and Driver licenses
+* Built iOS app
+* Product management for iOS app
+
+    Technologies used: Ruby on Rails, Obj-c, iOS
+
+### Get Satisfaction, Software Engineer, Jun 2010 - March 2011
+* Feature development, bug fixes
 * Built functional prototype for entirely redesigned admin section
-Technologies used: Ruby on Rails
 
-## UserVoice, Software Engineer, May 2009 - June 2010
-This was my first real startup job in San Francisco. It was a user feedback company, and we were
-a really tight, scrappy, efficient team.
-* Created a Rails plugin that hacked ActionMailer to generate a text part from the html part of
-  the email on the fly. This saved us countless hours of developer time and headache.
-* Improved email delivery rate by setting up DKIM, TLS, Reverse DNS, and monitored the bounce rates
-* Made CSS inliner for HTML emails as they are being sent out. Another developer productivity boost.
-* Internal URL link shortener for our links. We saved tens of thousands of dollars for an easy to
-  customize tool. We were scrappy
-* Created pipeline for easily programming email processing steps (inline CSS, generating text parts, URL shortening, etc...)
-Technologies Used: Ruby on Rails, Javascript, JQuery, CSS
+    Technologies used: Ruby on Rails
 
-# Publications
+### UserVoice, Software Engineer, May 2009 - June 2010
+* Designed and built email processing pipeline
+* Created a Rails plugin to generate a text part from the html part of the email on the fly, saving significant hours of developer time
+* Improved email delivery rate by setting up DKIM, TLS, Reverse DNS, and bounce rate monitoring
+* Pioneered on-the-fly CSS inliner for HTML emails. Another developer productivity boost
+* Internal URL link shortener for branded links
+
+    Technologies Used: Ruby on Rails, Javascript, JQuery, CSS
+
+## Publications
 Video Relighting Using Infrared Illumination
 2008 Computer Graphics Forum Vol. 27 Issue 2
 
-# Education
+## Education
 2008 University of California, Santa Cruz
 Bachelor of Computer Science with a minor in Mathematics
